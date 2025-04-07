@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>QR-сканер</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Сканер QR-кодов</h1>
+            <div class="scanner">
+                <video
+                    id="video"
+                    width="300"
+                    height="300"
+                    autoplay
+                    playsinline
+                ></video>
+                <canvas id="canvas" width="300" height="300"></canvas>
+            </div>
+            <div class="result">
+                <p id="result-text">Наведите камеру на QR-код</p>
+                <a
+                    id="result-link"
+                    href="#"
+                    target="_blank"
+                    style="display: none"
+                    >Перейти по ссылке</a
+                >
+            </div>
+            <button id="start-button">Запустить камеру</button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
