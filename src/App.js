@@ -27,7 +27,7 @@ function App() {
         try {
             const { data } = await axios({
                 method: "get",
-                url: `http://localhost:3000/check?identifier=${code}`,
+                url: `https://pech-server.ru/check?identifier=${code}`,
             });
 
             setDataFromServer(data);
@@ -47,7 +47,7 @@ function App() {
         try {
             await axios({
                 method: "PUT",
-                url: `http://localhost:3000/apply`,
+                url: `https://pech-server.ru/apply`,
                 data: {
                     code,
                 },
