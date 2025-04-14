@@ -19,13 +19,10 @@ const CodeStatus = ({ status, code, onApplyDiscount, onReset }) => {
     return (
         <div className="code-status">
             <h3>Статус кода: {getStatusMessage()}</h3>
-            <p>
-                Код: <strong>{code}</strong>
-            </p>
 
             {status === "valid" && (
                 <button
-                    className="apply-button"
+                    className="discount-btn"
                     onClick={() => onApplyDiscount(code)}
                 >
                     Применить скидку
@@ -33,7 +30,7 @@ const CodeStatus = ({ status, code, onApplyDiscount, onReset }) => {
             )}
 
             {(status === "used" || status === "error") && (
-                <button className="reset-button" onClick={onReset}>
+                <button className="scan-another-btn" onClick={onReset}>
                     Сканировать другой код
                 </button>
             )}

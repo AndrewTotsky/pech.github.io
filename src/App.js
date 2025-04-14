@@ -95,15 +95,6 @@ function App() {
                         }}
                     />
                 )}
-
-                {/* <div className="addresses">
-                    <label>Выберите адрес ресторана:</label>
-                    <select>
-                        {cities.map((city, index) => (
-                            <option value={city.id}>{city.address}</option>
-                        ))}
-                    </select>
-                </div> */}
             </header>
         </div>
     );
