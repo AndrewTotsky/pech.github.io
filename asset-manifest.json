@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pech.github.io/static/css/main.3d7ada24.css",
-    "main.js": "/pech.github.io/static/js/main.e801b29f.js",
+    "main.css": "/pech.github.io/static/css/main.7ae5ab61.css",
+    "main.js": "/pech.github.io/static/js/main.2827079c.js",
     "static/js/453.7d3c9489.chunk.js": "/pech.github.io/static/js/453.7d3c9489.chunk.js",
     "index.html": "/pech.github.io/index.html",
-    "main.3d7ada24.css.map": "/pech.github.io/static/css/main.3d7ada24.css.map",
-    "main.e801b29f.js.map": "/pech.github.io/static/js/main.e801b29f.js.map",
+    "main.7ae5ab61.css.map": "/pech.github.io/static/css/main.7ae5ab61.css.map",
+    "main.2827079c.js.map": "/pech.github.io/static/js/main.2827079c.js.map",
     "453.7d3c9489.chunk.js.map": "/pech.github.io/static/js/453.7d3c9489.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d7ada24.css",
-    "static/js/main.e801b29f.js"
+    "static/css/main.7ae5ab61.css",
+    "static/js/main.2827079c.js"
   ]
 }
