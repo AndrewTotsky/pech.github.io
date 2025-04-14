@@ -4,6 +4,16 @@ import CodeStatus from "./CodeStatus";
 import axios from "axios";
 import "./App.css";
 
+const cities: City[] = [
+    {
+        id: "NN_Man_18",
+        address: "Нижний Новгород, Мануфактурная, 18",
+    },
+    {
+        id: "KEM_Mol_pr_19",
+        address: "Кемерово, ​Молодёжный проспект, 19",
+    },
+];
 function App() {
     const [scannedData, setScannedData] = useState(null);
     const [status, setStatus] = useState("waiting");
@@ -85,6 +95,15 @@ function App() {
                         }}
                     />
                 )}
+
+                {/* <div className="addresses">
+                    <label>Выберите адрес ресторана:</label>
+                    <select>
+                        {cities.map((city, index) => (
+                            <option value={city.id}>{city.address}</option>
+                        ))}
+                    </select>
+                </div> */}
             </header>
         </div>
     );

@@ -50,3 +50,11 @@
     color: #666;
     font-size: 16px;
 }
+
+.addresses {
+    margin: 0;
+    display: flex;
+    justify-content: center; /* Горизонтальное центрирование */
+    align-items: center; /* Вертикальное центрирование */
+    flex-direction: column;
+}
